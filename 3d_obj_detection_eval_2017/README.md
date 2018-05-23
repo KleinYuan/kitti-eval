@@ -22,11 +22,14 @@ We provide:
 Download data object label from [KITTI](http://www.cvlibs.net/download.php?file=data_object_label_2.zip) and unzip it (then 
 you pbbly can get a folder called label_2 including a bunch of txt files).
 
-Either move all files in label_2 into the placeholder label folder or delete placeholder label folder and rename the unzipped one.
+Either move all files in label_2 into the [placeholder label folder](https://github.com/KleinYuan/kitti-eval/tree/master/3d_obj_detection_eval_2017/label) 
+or delete [placeholder label folder](https://github.com/KleinYuan/kitti-eval/tree/master/3d_obj_detection_eval_2017/label) 
+and rename the unzipped one.
 
 ### Step2 Get prediction data
 
-This evaluation only can be done after you have finish the predictions. Organize the predictions under prediction/data.
+This evaluation only can be done after you have finish the predictions. Organize the predictions under 
+[prediction/data](https://github.com/KleinYuan/kitti-eval/tree/master/3d_obj_detection_eval_2017/prediction/data).
 
 Namely, you will have folder organizations as follow:
 
