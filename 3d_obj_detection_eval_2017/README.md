@@ -1,11 +1,11 @@
-## Intro
+# Intro
 
 KITTI provides an official evaluation kit, which requires you do online evaluation, filling in emails and zip archives.
 
 However, most of the time, we just wanna do local evaluation, therefore, a modified version has been used to compile. Note, some of the
 offline code has been borrowed from this [repo](https://github.com/charlesq34/frustum-pointnets/blob/master/train/kitti_eval/evaluate_object_3d_offline.cpp).
 
-## Files
+# Files
 
 We provide:
 
@@ -15,16 +15,16 @@ We provide:
 
 - [X] pre-compiled executables for both online and offline
 
-## Evaluations
+# Evaluations
 
-#### Step1 Download labels
+### Step1 Download labels
 
 Download data object label from [KITTI](http://www.cvlibs.net/download.php?file=data_object_label_2.zip) and unzip it (then 
 you pbbly can get a folder called label_2 including a bunch of txt files).
 
 Either move all files in label_2 into the placeholder label folder or delete placeholder label folder and rename the unzipped one.
 
-#### Step2 Get prediction data
+### Step2 Get prediction data
 
 This evaluation only can be done after you have finish the predictions. Organize the predictions under prediction/data.
 
@@ -45,7 +45,7 @@ Namely, you will have folder organizations as follow:
         |---007480.txt
 ```
 
-#### Step3 Run evaluation
+### Step3 Run evaluation
 
 If you organize all the data as I listed above, simply run:
 
